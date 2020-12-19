@@ -1,0 +1,18 @@
+# Database 1 - results from this will be used in query for database 2
+one_user =
+one_password =
+one_server =
+one_database =
+one_query = select * from table1 where id in ('xxx')
+# column that should be exported - list of values to be used in second query
+one_results_column =
+
+# Database 2 - takes input results from Database 1
+two_user =
+two_password =
+two_server =
+two_database =
+two_query =
+# column in which the input should be used - list of values
+two_input_column =
+
